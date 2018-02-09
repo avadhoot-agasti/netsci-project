@@ -1,0 +1,64 @@
+\documentclass[sigconf]{acmart}
+
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
+\pagestyle{plain} % removes running headers
+
+\usepackage{booktabs} % For formal tables
+
+
+\begin{document}
+\title{Visualizing User Behavior on the Places and Spaces Website}
+
+\author{Avadhoot Agasti}
+\email{aagasti@indiana.edu}
+
+\author{Sharad Ghule}
+\email{ssghule@iu.edu}
+
+\author{Shreyas Rewagad}
+\email{srewagad@iu.edu}
+
+\author{Leonard Mwangi}
+\email{lmwangi@indiana.edu}
+
+
+\begin{abstract}
+
+The \textit{Places and Spaces: Mapping Science} exhibit introduces science mapping techniques to the general public and to experts across disciplines for educational, scientific, and practical purposes. The exhibit website \textit{www.scimaps.org} provides information about people behind the exhibit; showcases maps and macroscopes; lists past, present and planned exhibit venues and dates. The website underwent a redesign in 2015 to update the organization and user interface of the website and this study aims to analyze and visualize the changes in behaviour of users of the website due to the redesign. 
+\end{abstract}
+
+
+\keywords{Tableau, Visualization, Geospatial, URL, Hits, Pageviews, Parsing, Web Analytics, Line Graph, Tree Map, Dynamic Visualization}
+
+\maketitle
+
+\input{introduction}
+\input{requirements}
+\input{technicalsolution}
+
+\input{visualizations}
+\input{viz_top_countries}
+\input{viz_top_agents}
+\input{viz_top_refs}
+\input{viz_top_searches}
+\input{viz_top_urls}
+\input{viz_events_traffic}
+
+\input{similartechnologies}
+
+\input{conclusion}
+
+%\end{document}  % This is where a 'short' article might terminate
+
+
+\section{Acknowledgements}
+ The authors thank Prof. Katy Borner for her technical guidance. The
+ authors would also like to thank TAs of Information Visualization class for their valued
+ support.
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{main} 
+
+\end{document}
