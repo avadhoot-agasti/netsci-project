@@ -1,1 +1,47 @@
 \section{Technical Solution} \label{techsoln}
+ Our approach is to identify the dependent packages by looking
+ at the dependencies using \textit{pip show} output. For example
+ \begin{lstlisting}
+pip show networkx
+
+Name: networkx
+
+Version: 1.11
+
+Summary: Python package for creating and 
+manipulating graphs and networks
+
+Home-page: http://networkx.github.io/
+
+Author: NetworkX Developers
+
+Author-email: networkx-discuss@googlegroups.com
+
+License: BSD
+
+Location: /Libs/anaconda/lib/python3.6/site-packages
+
+Requires: decorator
+ \end{lstlisting}
+ Looking at the above output we can clearly see that \textit{networkxx}
+ depends on package \textit{decorator} and further package \textit{decorator}
+ may be dependent on other package and so on. We continue to traverse
+ we should be able to find all dependent packages till we reach code python
+ libraries. Interestingly, there \textit{128k} python packages available \cite{www-python-org}
+ We can automate running this analysis on these packages using python script. After 
+ collecting this information each package will form a node in the graph and each
+ edge will represent the dependency with the next module. We should be able
+ to plot this graph using \textit{networkx} module and represent the most important nodes
+ which become the hubs to the network. Also, compute the degree and clustering 
+ co-efficient for this graph. Further, we can also study to graph to identify if the graph 
+ follows the \textit{power law} distribution or it is a \textit{scale free} network or its
+ just a \textit{random} network.
+  
+\section{Challanges} \label{techchallanges}
+During this exercise we can run into few technical challenges for example
+to perform this analysis we have to install each python package locally
+which could be really resource intensive specially in terms of disk space.
+Also, while doing the analysis and loading the graph for 128k packages
+could be memory and cpu intensive. To get around this problem we may 
+have to reduce the analysis to less number of python packages and keep
+adding mode packages as we make progress.

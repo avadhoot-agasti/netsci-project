@@ -1,35 +1,34 @@
 \documentclass[sigconf]{acmart}
-
-% \settopmatter{printacmref=false} % Removes citation information below abstract
+%\settopmatter{printacmref=false} % Removes citation information below abstract
 \renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
 \pagestyle{plain} % removes running headers
 
 \usepackage{booktabs} % For formal tables
+\usepackage{listings}
 
 
 \begin{document}
-\title{Visualizing User Behavior on the Places and Spaces Website}
+\title{Analyzing small world phenomenon and scale free network of python packages}
 
 \author{Avadhoot Agasti}
 \email{aagasti@indiana.edu}
 
-\author{Sharad Ghule}
-\email{ssghule@iu.edu}
-
-\author{Shreyas Rewagad}
-\email{srewagad@iu.edu}
-
-\author{Leonard Mwangi}
-\email{lmwangi@indiana.edu}
-
+\author{Abhishek Gupta}
+\email{abhigupt@iu.edu}
 
 \begin{abstract}
 
-The \textit{Places and Spaces: Mapping Science} exhibit introduces science mapping techniques to the general public and to experts across disciplines for educational, scientific, and practical purposes. The exhibit website \textit{www.scimaps.org} provides information about people behind the exhibit; showcases maps and macroscopes; lists past, present and planned exhibit venues and dates. The website underwent a redesign in 2015 to update the organization and user interface of the website and this study aims to analyze and visualize the changes in behaviour of users of the website due to the redesign. 
+The \textit{small world} phenomenon is a very important and interesting concept which can be practically 
+used in optimizing imports for programming languages like python, java etc. This will also help us understand
+the network of the packages used by developers and classify them as scale free or random network. Further,
+this analysis can be extended to any other programming language and understand the package network. The 
+scope of this project is to focus on python based packages and navigate to all dependent packages to build
+a network graph of these packages. Further, identify the important packages which could be like important
+nodes in scale-free network.   
 \end{abstract}
 
 
-\keywords{Tableau, Visualization, Geospatial, URL, Hits, Pageviews, Parsing, Web Analytics, Line Graph, Tree Map, Dynamic Visualization}
+\keywords{scale-free, random networks, small-world, packages}
 
 \maketitle
 
@@ -57,8 +56,7 @@ The \textit{Places and Spaces: Mapping Science} exhibit introduces science mappi
  authors would also like to thank TAs of Information Visualization class for their valued
  support.
 
-
-\bibliographystyle{ACM-Reference-Format}
-\bibliography{main} 
+\bibliographystyle{plain}
+\bibliography{references}
 
 \end{document}
