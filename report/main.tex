@@ -5,7 +5,13 @@
 
 \usepackage{booktabs} % For formal tables
 \usepackage{listings}
-
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
 
 \begin{document}
 \title{Analyzing small world phenomenon and scale free network of python packages}
@@ -27,7 +33,6 @@ a network graph of these packages. Further, identify the important packages whic
 nodes in scale-free network.   
 \end{abstract}
 
-
 \keywords{scale-free, random networks, small-world, packages}
 
 \maketitle
@@ -47,9 +52,13 @@ nodes in scale-free network.
 \section{Acknowledgements}
  The authors thank Prof. YY Ahn for his technical guidance. The
  authors would also like to thank TAs of Network Science class for their valued
- support.
+ support. 
 
-\bibliographystyle{plain}
+\section{Repo} 
+ All project and report document can be found at \href{https://github.com/avadhoot-agasti/netsci-project/blob/master/report/main.pdf}{github project}.
+
+\nocite{*}
+\bibliographystyle{unsrt}
 \bibliography{references}
 
 \end{document}
