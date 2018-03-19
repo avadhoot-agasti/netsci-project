@@ -27,7 +27,7 @@ class Crawler:
 
         with open (filepath, "r") as myfile:
             data=myfile.read().replace('\n', '')
-        self.dep_json = json.loads(data)
+        self.dep_json = data
 
     def get_dependency_list(self):
         return self.dep_json
