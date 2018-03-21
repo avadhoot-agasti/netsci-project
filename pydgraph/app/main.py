@@ -23,16 +23,8 @@ class PyDGraph:
         self.pgrpah.plot_graph(nodes)
 
 def main(argv):
-    # My code here
     app = PyDGraph()
     app.generate()
-
-    # app.pgrpah.add_node("six")
-    # app.pgrpah.add_node("pyparsing")
-    # app.pgrpah.add_edge("six", "pyparsing")
-    # app.pgrpah.show()
-
-    pass
 
 if __name__ == "__main__":
     main(sys.argv)

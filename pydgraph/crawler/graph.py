@@ -61,7 +61,7 @@ class Graph:
                 for v in values:
                     # print("key: %s, v: %s" %(key, v))
                     self.gr.add_node(v)
-                    self.gr.add_edge(key, v)
+                    self.gr.add_edge(v, key)
 
 
         self.draw()
