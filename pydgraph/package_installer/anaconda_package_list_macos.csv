@@ -1,0 +1,483 @@
+Name,Version,Summary / License
+_ipyw_jlab_nb_ext_conf,0.1.0,A configuration metapackage for enabling Anaconda-bundled jupyter extensions / BSD
+_nb_ext_conf,0.4.0,A configuration metapackage for enabling Anaconda-bundled jupyter extensions / BSD
+affine,2.1.0,Matrices describing affine transformation of the plane. / BSD 3-Clause
+aiohttp,2.3.9,Async http client/server framework (asyncio) / Apache 2.0
+alabaster,0.7.10,"Configurable, Python 2+3 compatible Sphinx theme. / BSD 3-Clause"
+anaconda-clean,1.1.0,Delete Anaconda configuration files / BSD
+anaconda-client,1.6.9,Anaconda Cloud command line client library / BSD 3-Clause
+anaconda-navigator,1.7.0,"Anaconda Navigator / proprietary - Continuum Analytics, Inc."
+anaconda-project,0.8.2,"Tool for encapsulating, running, and reproducing data science projects / BSD 3-Clause"
+anaconda-verify,1.3.8,tool for (passively) verifying conda recipes and conda packages / BSD
+ansi2html,1.3.0,Convert text with ANSI color codes to HTML or to LaTeX. / LGPLv3+
+anyqt,0.0.8,PyQt4/PyQt5 compatibility layer. / GPL-3.0
+appdirs,1.4.3,Python module for determining appropriate platform-specific dirs / MIT
+appnope,0.1.0,Disable App Nap on OS X 10.9 / BSD 2-Clause
+appscript,1.0.1,Control AppleScriptable applications from Python / Public-Domain
+apptools,4.4.0,Includes packages useful for creating applications / BSD
+asn1crypto,0.24.0,Python ASN.1 library with a focus on performance and a pythonic API / MIT
+astroid,1.6.1,A abstract syntax tree for Python with inference support. / LGPL 2.1
+astropy,2.0.3,Community-developed Python Library for Astronomy / BSD
+async-timeout,2.0.0,Timeout context manager for asyncio programs / Apache 2.0
+attrs,17.4.0,attrs is the Python package that will bring back the joy of writing classes by relieving you from the drudgery of implementing object protocols (aka dunder methods). / MIT
+automake,1.15.1,Tool for automatically generating Makefile.in files compliant with the GNU Coding Standards. / GPL 3
+azure,1.0.2,Microsoft Azure SDK for Python / Apache License 2.0
+babel,2.5.3,Utilities to internationalize and localize Python applications / BSD 3-clause
+backports,1,/ BSD
+backports.shutil_get_terminal_size,1.0.0,A backport of the get_terminal_size function from Python 3.3's shutil. / MIT
+backports.weakref,1.0.post1,Backport of new features in Python's weakref module / Python-2.0
+basemap,1.0.7,Plot data on map projections with matplotlib / PSF
+bcolz,1.1.2,A columnar data container that can be compressed / MIT
+bcrypt,3.1.4,"modern password hashing for your software and your servers / Apache License, Version 2.0"
+beautifulsoup4,4.6.0,Python library designed for screen-scraping / MIT
+biopython,1.69,Freely available tools for biological computation / Biopython or BSD 3-Clause
+bitarray,0.8.1,efficient arrays of booleans -- C extension / PSF
+bkcharts,0.2,High level chart types built on top of Bokeh / BSD 3-Clause
+blaze,0.11.3,NumPy and Pandas interface to big data / BSD 3-Clause
+bleach,2.1.2,"Easy, whitelist-based HTML-sanitizing tool / Apache-2.0"
+blist,1.3.6,Replacement for Python lists with better performance / BSD 3-clause
+bokeh,0.12.13,Statistical and novel interactive HTML plots for Python / BSD 3-Clause
+boost,1.65.1,Free peer-reviewed portable C++ source libraries. / Boost-1.0
+boto,2.48.0,Amazon Web Services Library / MIT
+boto3,1.4.8,Amazon Web Services SDK for Python / Apache 2.0
+bottlechest,0.7.1,fast NumPy array functions specialized for use in Orange / BSD
+bottleneck,1.2.1,Fast NumPy array functions written in Cython. / BSD 2-Clause
+bsdiff4,1.1.5,binary diff and patch using the BSDIFF4-format / BSD
+btrees,4.4.1,scalable persistent object containers / ZPL 2.1
+bz2file,0.98,"library for reading and writing bzip2-compressed files / Apache License, Version 2.0"
+bzip2,1.0.6,high-quality data compressor / bzip2
+ca-certificates,2017.08.26,Certificates for use with other packages. / ISC
+cachecontrol,0.12.3,httplib2 caching algorithms for use with requests / Apache Software License
+cached-property,1.3.1,A decorator for caching properties in classes. / BSD-3-Clause
+certifi,2018.1.18,Python package for providing Mozilla's CA Bundle. / ISC
+cffi,1.11.4,Foreign Function Interface for Python calling C code. / MIT
+chainer,3.1.0,A flexible framework of neural networks / MIT License
+chalmers,0.8.0,Monitor and control a number of processes on any operating system / MIT
+chameleon,3.2,HTML/XML template engine for Python / Repoze
+chardet,3.0.4,Universal character encoding detector / LGPL2
+cherrypy,13.1.0,Object-Oriented HTTP framework / BSD 3-Clause
+chest,0.2.3,A dictionary that writes its contents to disk / BSD
+click,6.7,A simple wrapper around optparse for powerful command line utilities. / BSD 3-Clause
+click-plugins,1.0.3,An extension module for click to enable registering CLI commands via setuptools entry-points. / BSD 3-Clause
+cligj,0.4.0,Click params for commmand line interfaces to GeoJSON. / BSD 3-Clause
+cloudpickle,0.5.2,Extended pickling support for Python objects / BSD 3-Clause
+clyent,1.2.2,Command line client library for windows and posix / BSD 3-Clause
+cmake,3.9.4,"CMake is an extensible, open-source system that manages the build process / BSD 3-clause"
+colander,1.4,"A serialization, deserialization, and validation library / BSD-like"
+colorama,0.3.9,Cross-platform colored terminal text. / BSD 3-Clause
+colorcet,0.9.1,collection of perceptually uniform colormaps / Creative Commons Attribution 4.0 International Public License
+conda,4.4.10,"OS-agnostic, system-level binary package and environment manager. / BSD 3-Clause"
+conda-build,3.4.1,tools for building conda packages / BSD 3-Clause
+conda-build-all,1.0.2,conda build-all is a conda subcommand providing matrix building / BSD 3-clause
+conda-env,2.6.0,Tools for interacting with conda environments. / BSD 3-Clause
+conda-manager,0.4.0,Graphical conda package manager / MIT
+conda-verify,2.0.0,tool for validating conda recipes and conda packages / BSD 3-Clause
+configargparse,0.12.0,allowing options to be set via config files and/or env vars / MIT
+configobj,5.0.6,"Config file reading, writing and validation / BSD"
+constructor,2.0.2,create installer from conda packages / BSD 3-Clause
+contextlib2,0.5.5,Backports and enhancements for the contextlib module / PSF
+cornice,3.0.0,build and document Web Services with Pyramid / MPL 2.0
+coverage,4.4.2,Code coverage measurement for Python / Apache 2.0
+cryptography,2.1.4,"Provides cryptographic recipes and primitives to Python developers / Apache 2.0 or BSD 3-Clause, PSF 2"
+cssselect,1.0.3,CSS Selectors for Python / BSD 3-Clause
+csvkit,1.0.2,"A suite of command-line tools for working with CSV, the king of tabular file formats. / MIT"
+cubes,1.1,A light-weight Python OLAP framework for data warehouses / MIT
+cudatoolkit,8,development environment for GPU-accelerated applications / proprietary - Nvidia
+cudnn,7.0.5,NVIDIA's cuDNN deep neural network acceleration library / Proprietary
+curl,7.58.0,tool and library for transferring data with URL syntax / MIT/X derivate (http://curl.haxx.se/docs/copyright.html)
+cvxcanon,0.1.1,Low-level library to perform the matrix building step in CVXPY / GPL3
+cvxopt,1.1.8,Library for convex optimization / GPL
+cycler,0.10.0,Composable style cycles. / BSD 3-Clause
+cython,0.27.3,The Cython compiler for writing C extensions for the Python language / Apache-2.0
+cytoolz,0.9.0,Cython implementation of Toolz. High performance functional utilities. / BSD 3-Clause
+dask,0.16.1,Parallel Python with task scheduling / BSD 3-Clause
+dask-core,0.16.1,Parallel Python with task scheduling / BSD 3-Clause
+datashader,0.6.2,Data visualization toolchain based on aggregating into a grid / New BSD
+datashape,0.5.4,A data description language. / BSD 2-Clause
+datrie,0.7.1,"Super-fast, efficiently stored Trie for Python, uses libdatrie / LGPLv2"
+dbf,0.96.8,"Pure python package for reading/writing dBase, FoxPro, and Visual FoxPro .dbf files (including memos) / BSD 3-clause"
+dbus,1.12.2,Simple message bus system for applications to talk to one another / GPL2
+decorator,4.2.1,Better living through Python with decorators. / BSD 3-Clause
+dill,0.2.7.1,Serialize all of python (almost) / BSD 3-Clause
+distributed,1.20.2,Distributed computing with Dask / BSD 3-Clause
+django,1.11.8,"A high-level Python Web framework that encourages rapid development and clean, pragmatic design. / BSD 3-Clause"
+dnspython,1.15.0,A DNS toolkit for Python / BSD-like
+docopt,0.6.2,Command-line interface description language / MIT
+docutils,0.14,Docutils -- Python Documentation Utilities / Public Domain Dedictation and BSD 2-Clause and PSF 2.1.1 and GPL 3.0
+ecdsa,0.13,ECDSA cryptographic signature library (pure Python) / MIT
+ecos,2.0.4,Embedded Conic Solver (ECOS) / GPL3
+entrypoints,0.2.3,Discover and load entry points from installed packages. / MIT License
+envisage,4.6.0,Extensible application framework / BSD 3-clause
+ephem,3.7.6.0,Basic astronomical computations for Python / LGPL
+et_xmlfile,1.0.1,An implementation of lxml.xmlfile for the standard library / MIT
+expat,2.2.5,Expat XML parser library in C. / MIT
+fastcache,1.0.2,C implementation of Python 3 lru_cache / MIT
+fastparquet,0.1.4,Python interface to the parquet format / BSD-3
+feedparser,5.2.1,parse feeds in Python / OSI Approved
+filelock,2.0.13,A platform independent file lock. / Public Domain
+fiona,1.7.10,Fiona reads and writes spatial data files. / BSD 3-Clause
+flake8,3.5.0,Your Tool For Style Guide Enforcement / MIT
+flask,0.12.2,"A microframework based on Werkzeug, Jinja2 and good intentions. / BSD 3-Clause"
+flask-cors,3.0.3,A Flask extension adding a decorator for CORS support / MIT
+flask-login,0.4.0,User session management for Flask / MIT
+flask-wtf,0.14.2,Simple integration of Flask and WTForms / BSD
+freeimage,3.17.0,"Supports popular graphics image formats like PNG, BMP, JPEG, TIFF / GPLv2 and FreeImage Public License"
+freetype,2.8,"A Free, High-Quality, and Portable Font Engine / GPL-2.0 and FreeType"
+fuel,0.2.0,data pipeline framework for machine learning / MIT License
+future,0.16.0,Clean single-source support for Python 3 and 2 / MIT
+gdal,2.2.2,Python wrapper for the Geospatial Data Abstraction Library (GDAL) / MIT
+gensim,3.1.0,Topic Modelling for Humans / LGPL-3.0
+geos,3.6.2,Geometry Engine - Open Source. / LGPLv2.1
+get_terminal_size,1.0.0,Get the size of the terminal window. / MIT
+gettext,0.19.8.1,Internationalization package. / GPLv2
+gevent,1.2.2,Coroutine-based network library / MIT
+gevent-websocket,0.10.1,"Websocket handler for the gevent pywsgi server, a Python network library / Apache"
+git,2.16.1,distributed version control system / GPL v2 and LGPL 2.1
+glib,2.53.6,Provides core application building blocks for libraries and applications written in C. / LGPL-2.1
+glob2,0.6,"Version of the glob module that supports recursion via **, and can capture patterns. / BSD-2-Clause"
+glueviz,0.12.0,Multi-dimensional linked data exploration / BSD 3-Clause
+gmp,6.1.2,The GNU multiprecision library. / GPL 2 and LGPL 3
+gmpy2,2.0.8,"GMP/MPIR, MPFR, and MPC interface to Python 2.6+ and 3.x / LGPL 3"
+graphviz,2.40.1,Open Source graph visualization software. / EPL v1.0
+greenlet,0.4.12,Lightweight in-process concurrent programming / MIT
+gunicorn,19.7.1,WSGI HTTP Server for UNIX / MIT
+h2o,3.10.0.9,hadoop-centric machine learning (core java package) / Apache v2
+h2o-py,3.10.0.9,"fast, scalable machine learning (python interface) / Apache v2"
+h5py,2.7.1,Read and write HDF5 files from Python. / BSD 3-Clause
+hdf4,4.2.13,Library and multi-object file format for storing and managing data between machines. / BSD 3-Clause
+hdf5,1.10.1,"HDF5 is a data model, library, and file format for storing and managing data / HDF5"
+heapdict,1.0.0,A heap with decrease-key and increase-key operations / BSD 3-Clause
+holoviews,1.9.2,Stop plotting your data - annotate your data and let it visualize itself. / BSD 3-Clause
+html5lib,1.0.1,HTML parser based on the WHATWG HTML specification / MIT
+humanize,0.5.1,python humanize utilities / MIT
+icu,58.2,International Components for Unicode. / MIT
+idna,2.6,Internationalized Domain Names in Applications (IDNA). / BSD Like
+imageio,2.2.0,a Python library for reading and writing image data / BSD 2-Clause
+imagesize,0.7.1,Getting image size from png/jpeg/jpeg2000/gif file / MIT
+impyla,0.14.0,"Python client for the Impala distributed query engine / Apache License, Version 2.0"
+intel-openmp,2018.0.0,Math library for Intel and compatible processors / proprietary - Intel
+ipykernel,4.8.0,IPython Kernel for Jupyter / BSD 3-clause
+ipyparallel,6.0.2,Interactive Parallel Computing in Python / BSD
+ipython,6.2.1,IPython: Productive Interactive Computing / BSD 3-clause
+ipython_genutils,0.2.0,vestigial utilities from IPython / BSD 3-Clause
+ipywidgets,7.1.1,Jupyter Interactive Widgets / BSD 3-clause
+iso8601,0.1.12,Simple module to parse ISO 8601 dates / MIT
+isort,4.2.15,A Python utility / library to sort Python imports. / MIT
+itsdangerous,0.24,Various helpers to pass trusted data to untrusted environments. / BSD 3-Clause
+jbig,2.1,Implementation of the JBIG1 data compression standard / GPL-2.0
+jdcal,1.3,Julian dates from proleptic Gregorian and Julian calendars. / BSD 2-Clause
+jedi,0.11.1,An autocompletion tool for Python that can be used for text editors. / MIT
+jinja2,2.1,An easy to use stand-alone template engine written in pure python. / 3-Clause BSD
+joblib,0.11,Lightweight pipelining in Python / BSD
+jpeg,9b,"read/write jpeg COM, EXIF, IPTC medata / Custom free software license"
+jsonschema,2.6.0,An implementation of JSON Schema validation for Python / MIT
+jupyter,1.0.0,Jupyter metapackage. Install all the Jupyter components in one go. / BSD 3-Clause
+jupyter_client,5.2.2,Jupyter protocol implementation and client libraries / BSD 3-clause
+jupyter_console,5.2.0,Jupyter terminal console / BSD 3-Clause
+jupyter_core,4.4.0,Core common functionality of Jupyter projects. / BSD 3-clause
+jupyterlab,0.31.5,A pre-alpha version of a computational environment for Jupyter. / BSD 3-Clause
+jupyterlab_launcher,0.10.2,A Launcher for JupyterLab based applications. / BSD 3-Clause
+kealib,1.4.7,The KEA format provides an implementation of the GDAL specification within the the HDF5 file format. / MIT
+keyring,10.5.0,Store and access your passwords safely. / Python Software Foundation or MIT
+lancet,0.9.0,"Launch jobs, organize the output, and dissect the results / BSD"
+lazy-object-proxy,1.3.1,A fast and thorough lazy object proxy. / BSD 2-Clause
+ldap3,2.4,A strictly RFC 4510 conforming LDAP V3 pure Python client library / LGPL-3.0
+libconda,4.0.3,conda 4.0 based library / BSD
+libcurl,7.58.0,tool and library for transferring data with URL syntax / MIT/X derivate (http://curl.haxx.se/docs/copyright.html)
+libcxx,4.0.1,C++ Standard Library / MIT license or UIUC License
+libcxxabi,4.0.1,C++ Standard Library Support / MIT license or UIUC License
+libedit,3.1,Editline Library (libedit) / NetBSD
+libevent,2.1.8,An event notification library. / BSD 3-Clause
+libffi,3.2.1,A Portable Foreign Function Interface Library. / Custom
+libgfortran,3.0.1,Fortran libraries from the GNU Compiler Collection / GPL 3 (with GCC Runtime Library Exception 3.1)
+libiconv,1.15,Provides iconv for systems which don't have one (or that cannot convert from/to Unicode.) / GPL and LGPL
+libnetcdf,4.5.0,Libraries and data formats that support array-oriented scientific data. / MIT
+libpng,1.6.34,PNG reference library. / zlib/libpng
+libsodium,1.0.15,A modern and easy-to-use crypto library. / ISC
+libssh2,1.8.0,the SSH library / BSD 3-Clause
+libtiff,4.0.9,Support for the Tag Image File Format (TIFF). / HPND
+libxml2,2.9.7,The XML C parser and toolkit of Gnome / MIT
+libxslt,1.1.32,The XSLT C library developed for the GNOME project / MIT
+lighttpd,1.4.45,"Light, fast web server / BSD"
+line_profiler,2,Line-by-line profiling for Python / BSD
+llvmlite,0.21.0,A lightweight LLVM python binding for writing JIT compilers / New BSD License
+locket,0.2.0,File-based locks for Python for Linux and Windows / BSD 2-Clause
+lockfile,0.12.2,Platform-independent file locking module / MIT
+luigi,2.7.1,Workflow mgmgt + task scheduling + dependency resolution. / Apache-2.0
+lxml,4.1.1,"Pythonic binding for the C libraries libxml2 and libxslt. / BSD 3-Clause, GPL-2.0, ZPL-2.0, and ElementTree"
+lz4,0.10.1,Bindings for the lz4 compression library / BSD
+lzo,2.1,LZO is a portable lossless data compression library written in ANSI C. / GPL v2+
+m4,1.4.18,Implementation of the traditional Unix macro processor. / GPL-3.0
+mako,1.0.7,A super-fast templating language that borrows the best ideas from the existing templating languages. / MIT
+markdown,2.6.9,Python implementation of Markdown / BSD
+markdown2,2.3.4,fast and complete Python implementation of Markdown / MIT
+markupsafe,1,A Python module that implements the jinja2.Markup string / BSD 3-Clause
+matplotlib,2.1.2,Publication quality figures in Python / PSF-based
+matplotlib-tests,1.5.0,Python 2D plotting library / PSF-based
+mccabe,0.6.1,McCabe complexity checker for Python / MIT
+mdp,3.5,A Python data processing framework. / BSD
+meld3,1.0.2,An HTML/XML templating engine / BSD-derived
+memory_profiler,0.47,A module for monitoring memory usage of a python program / BSD 3-Clause
+mistune,0.8.3,The fastest markdown parser in pure Python. / BSD 3-Clause
+mkl,2018.0.1,Math library for Intel and compatible processors / proprietary - Intel
+mkl-devel,2018.0.0,Math library for Intel and compatible processors / proprietary - Intel
+mkl-service,1.1.2,Python bindings to MKL service functions / 3-clause BSD
+mock,2.0.0,A library for testing in Python. / BSD 2-Clause
+mpc,1.0.3,A C library for the arithmetic of complex numbers with arbitrarily high precision. / LGPL 3
+mpfr,3.1.5,The MPFR library is a C library for multiple-precision floating-point computations with correct rounding. / LGPL 3
+mpi4py,2.0.0,Provides bindings of the MPI standard for Python / BSD
+mpmath,1.0.0,Python library for arbitrary-precision floating-point arithmetic / BSD 3-Clause
+msgpack-python,0.5.1,MessagePack (de)serializer. / Apache 2.0
+multidict,3.3.2,multidict implementation / Apache 2.0
+multipledispatch,0.4.9,Multiple dispatch in Python / BSD 3-Clause
+munch,2.2.0,A dot-accessible dictionary (a la JavaScript objects). / MIT
+mysql-connector-python,2.0.4,Python driver for communicating with MySQL servers / GPL2
+natsort,5.1.0,Simple yet flexible natural sorting in Python. / MIT
+navigator-updater,0.1.0,"Anaconda Navigator Updater / proprietary - Continuum Analytics, Inc."
+nb_anacondacloud,1.4.0,Interact with Anaconda Cloud / BSD-3-Clause
+nb_conda,2.2.1,Conda environment and package access extension from within Jupyter / BSD-3-Clause
+nb_conda_kernels,2.1.0,Launch Jupyter kernels for any installed conda environment. / BSD 3-Clause
+nbconvert,5.3.1,Converting Jupyter Notebooks / BSD 3-Clause
+nbformat,4.4.0,The reference implementation of the Jupyter Notebook format / BSD 3-clause
+nbpresent,3.0.2,Next generation slides for Jupyter Notebooks / BSD-3-Clause
+ncurses,6,Library for text-based user interfaces / Free software (MIT-like)
+neon,1.5.4,Nervana's Python-based Deep Learning framework / Apache 2.0
+netcdf4,1.3.1,Provides an object-oriented python interface to the netCDF version 4 library. / OSI Approved and MIT
+networkx,2.1,Python package for creating and manipulating complex networks / BSD 3-Clause
+nltk,3.2.5,Build Python programs to work with human language data / Apache 2.0
+nose,1.3.7,Nose extends unittest to make testing easier / LGPL-2.1
+nose-parameterized,0.6.0,Parameterized testing with any Python test framework / BSD License
+notebook,5.4.0,A web-based notebook environment for interactive computing / BSD 3-clause
+numba,0.36.2,a just-in-time Python function compiler based on LLVM / BSD
+numexpr,2.6.4,Fast numerical expression evaluator for NumPy. / MIT
+numpy,1.14.0,"Array processing for numbers, strings, records, and objects. / BSD 3-Clause"
+numpydoc,0.7.0,Sphinx extension to support docstrings in Numpy format / BSD 3-Clause
+odo,0.5.1,Data migration in Python / BSD-3-Clause
+olefile,0.45.1,"parse, read and write Microsoft OLE2 files / BSD License 2-Clause"
+openjdk,8.0.152,The JetBrains Runtime OpenJDK build. / GPLv2
+openpyxl,2.4.10,A Python library to read/write Excel 2010 xlsx/xlsm files / MIT
+openssl,1.0.2n,OpenSSL is an open-source implementation of the SSL and TLS protocols / OpenSSL
+orange3,3.4.1,component-based data mining framework / GNU General Public License v3 or later (GPLv3+)
+packaging,16.8,Core utilities for Python packages / Apache 2.0 or BSD 2-Clause
+pandas,0.22.0,"High-performance, easy-to-use data structures and data analysis tools. / BSD 3-clause"
+pandas-datareader,0.5.0,data readers extracted from the pandas codebase / BSD
+pandas-profiling,1.4.0,Generate profile report for pandas DataFrame / MIT License
+pandasql,0.7.3,Sqldf for pandas / BSD
+pandoc,1.19.2.1,Universal markup converter (repackaged binaries). / GPL-2.0
+pandocfilters,1.4.2,A python module for writing pandoc filters / BSD-3-Clause
+param,1.5.1,Declarative Python programming using Parameters / BSD
+paramiko,2.4.0,SSH2 protocol library / LGPL 2.1
+parso,0.1.1,A Python Parser / MIT License
+partd,0.3.8,Data structure for on-disk shuffle operations / BSD 3-Clause
+passlib,1.7.1,Password hashing library for Python / BSD
+path.py,10.5,A module wrapper for os.path / MIT
+pathlib,1.0.1,object-oriented filesystem paths / MIT
+pathlib2,2.3.0,Fork of pathlib aiming to support the full stdlib Python API. / MIT
+patsy,0.5.0,"Describing statistical models in Python using symbolic formulas / BSD-2-Clause, PSF2"
+pcre,8.41,Regular expression pattern matching using the same syntax and semantics as Perl 5. / BSD 3-Clause
+pep8,1.7.1,Python style guide checker / MIT
+petl,1.1.1,"A Python package for extracting, transforming and loading tables of data. / MIT"
+pexpect,4.3.1,Pexpect makes Python a better tool for controlling other applications. / ISC
+phantomjs,2.1.1,Scriptable Headless WebKit / BSD
+pickleshare,0.7.4,Tiny 'shelve'-like database with concurrency support / MIT
+pillow,5.0.0,Pillow is the friendly PIL fork by Alex Clark and Contributors. / PIL
+pip,9.0.1,PyPA recommended tool for installing Python packages / MIT
+pivottablejs,2.7.0,PivotTable.js integration for Jupyter/IPython Notebook / MIT
+pkginfo,1.4.1,Query metadatdata from sdists / bdists / installed packages. / MIT
+plac,0.9.6,smart command line arguments parser / BSD
+plotly,2.2.2,"An interactive, browser-based graphing library for Python / MIT"
+pluggy,0.6.0,Plugin registration and hook calling for Python / MIT
+ply,3.1,Python Lex-Yacc / BSD 3-clause
+pomegranate,0.8.1,"Pomegranate is a graphical models library for Python, implemented in Cython for speed. / MIT"
+portpicker,1.2.0,A library to choose unique available network ports. / Apache License 2.0
+posix_ipc,1.0.0,POSIX IPC for Python / BSD
+proj4,4.9.3,Cartographic projection software. / MIT
+prompt_toolkit,1.0.15,Library for building powerful interactive command lines in Python / BSD 3-clause
+protobuf,3.4.1,Protocol Buffers - Google's data interchange format / New BSD License
+psutil,5.4.3,A cross-platform process and system utilities module for Python / BSD 3-Clause
+psycopg2,2.7.3.2,"PostgreSQL database adapter for Python / LGPL, BSD-like, ZPL"
+ptyprocess,0.5.2,Run a subprocess in a pseudo terminal / ISC
+py,1.5.2,"library with cross-python path, ini-parsing, io, code, log facilities / MIT"
+pyasn1,0.4.2,ASN.1 types and codecs / BSD 2-Clause
+pyasn1-modules,0.0.8,A collection of ASN.1-based protocols modules. / BSD 2-Clause
+pycodestyle,2.3.1,Python style guide checker / MIT
+pycosat,0.6.3,Bindings to picosat (a SAT solver) / MIT
+pycparser,2.18,Complete C99 parser in pure Python / BSD 3-clause
+pycrypto,2.6.1,Cryptographic modules for Python. / Public Domain
+pycurl,7.43.0.1,"A Python Interface To The cURL library / LGPL, MIT"
+pyflakes,1.6.0,Pyflakes analyzes programs and detects various errors. / MIT
+pygments,2.2.0,Generic syntax highlighting package / BSD 2-clause
+pygpu,0.7.5,Library to manipulate arrays on GPU / ISC
+pykerberos,1.1.14,high-level interface to Kerberos / Apache
+pylint,1.8.2,python code static checker / GPL
+pymc,2.3.6,Bayesian Stochastic Modelling in Python / Academic Free License
+pymc3,3.2,Probabilistic Programming in Python. / Apache-2.0
+pymongo,3.4.0,Python driver for MongoDB / Apache
+pymysql,0.7.11,Pure-Python MySQL Driver / MIT
+pyodbc,4.0.22,DB API Module for ODBC / MIT
+pyopengl,3.1.1a1,Standard OpenGL bindings for Python / BSD
+pyopengl-accelerate,3.1.1a1,Acceleration code for PyOpenGL / BSD
+pyopenssl,17.5.0,Python wrapper module around the OpenSSL library / Apache 2.0
+pyparsing,2.2.0,Create and execute simple grammars / MIT
+pyproj,1.9.5.1,Python interface to PROJ4 library / MIT
+pyqt,5.6.0,"Python binding of the cross-platform GUI toolkit Qt. / Commercial, GPL-2.0, GPL-3.0"
+pyqtgraph,0.10.0,Scientific Graphics and GUI Library for Python / MIT
+pysal,1.14.2,Library of spatial analysis functions. / BSD 3-Clause
+pyserial,3.4,Python serial port access library / BSD-3-Clause
+pysnmp,4.4.2,SNMP library for Python / BSD-2-Clause
+pysocks,1.6.7,A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information. / BSD 3-Clause
+pystan,2.17.0.0,"Python interface to Stan, a package for Bayesian inference / GPLv3"
+pytables,3.4.2,"Brings together Python, HDF5 and NumPy to easily handle large amounts of data. / BSD 3-Clause"
+pytest,3.3.2,Simple and powerful testing with Python. / MIT
+pytest-asyncio,0.6.0,Pytest support for asyncio / Apache 2.0
+pytest-cache,1,pytest plugin with mechanisms for caching across test runs / MIT
+pytest-cov,2.5.1,Pytest plugin for measuring coverage / MIT
+pytest-mock,1.6.3,Thin-wrapper around the mock package for easier use with py.test / MIT
+pytest-pep8,1.0.6,pytest plugin to check PEP8 requirements / MIT
+pytest-runner,2.11.1,Invoke py.test as distutils command with dependency resolution. / MIT
+pytest-timeout,1.2.1,This is a plugin which will terminate tests after a certain timeout. / MIT
+pytest-xdist,1.17.1,py.test xdist plugin for distributed testing and loop-on-failing modes / MIT
+python,3.6.4,General purpose programming language / PSF
+python-blosc,1.5.1,A Python wrapper for the extremely fast Blosc compression library / Apache 2.0
+python-daemon,2.1.2,Library to implement a well-behaved Unix daemon process / Apache Software License
+python-dateutil,2.6.1,Extensions to the standard Python datetime module. / BSD 3-clause
+python-gdbm,1.1,GNU's reinterpretation of dbm / PSF
+python-graphviz,0.8.2,Simple Python interface for Graphviz / MIT
+python-leveldb,0.194,Python bindings for leveldb database library / BSD 3-Clause
+python-memcached,1.57,pure python memcached client / PSF
+python-ntlm,1.1.0,Provides NTLM support / LGPL
+python-rapidjson,0.0.11,Python wrapper around rapidjson / MIT
+python-snappy,0.5.1,Python library for the snappy compression library from Google / BSD
+python-sybase,0.4,Python interface to the Sybase relational database system / BSD License
+python-utils,2.2.0,module with some convenient utilities / BSD
+python.app,2,Proxy on OS X letting Python libraries hook into the gui event loop / BSD
+pytz,2017.3,"World timezone definitions, modern and historical. / MIT"
+pywavelets,0.5.2,Discrete Wavelet Transforms in Python. / MIT
+pywget,2.2,Pure Python download utility / Public-Domain
+pyyaml,3.12,YAML parser and emitter for Python / MIT
+pyzmq,16.0.3,Python bindings for zeromq / BSD 3-clause
+qgrid,0.3.3,Pandas DataFrame viewer for IPython Notebook / Apache 2.0
+qt,5.6.2,Qt is a cross-platform application and UI framework. / LGPL-3.0
+qtawesome,0.4.4,Iconic fonts in PyQt and PySide applications / MIT
+qtconsole,4.3.1,Jupyter Qt console / BSD 3-Clause
+qtpy,1.3.1,Abtraction layer for PyQt5/PyQt4/PySide / MIT
+quandl,3.2.0,High quality financial and economic data / MIT
+queuelib,1.4.2,Collection of persistent (disk-based) queues / BSD
+readline,7,library for editing command lines as they are typed in / GPL3
+redis,4.0.2,Advanced key-value cache and store / 3-clause BSD
+redis-py,2.10.6,Python client for Redis key-value store / MIT
+regex,2017.11.09,"Alternative regular expression module, to replace re. / Python-2.0"
+reportlab,3.4.0,The ReportLab Toolkit / BSD
+repoze.lru,0.7,A tiny LRU cache implementation and decorator / BSD
+requests,2.18.4,Python HTTP for Humans. / Apache 2.0
+requests-file,1.4.1,file transport adapter for Requests / Apache
+requests-ftp,0.3.1,FTP Transport Adapter for Requests / Apache Software License
+requests-kerberos,0.11.0,Kerberos authentication handler for python-requests / Other
+responses,0.8.1,utility library for mocking out the 'requests' Python library / Apache 2.0
+rope,0.10.7,A python refactoring library... / GPL 2.0
+routes,2.4.1,Routing Recognition and Generation Tools / MIT
+ruamel_yaml,0.15.35,A patched copy of ruamel.yaml. / MIT
+runipy,0.1.5,Run IPython notebooks from the command line / BSD 2-Clause
+s3fs,0.1.2,convenient Filesystem interface over S3 / BSD
+sas7bdat,2.0.7,sas7bdat file reader for Python / MIT
+scandir,1.6,"scandir, a better directory iterator and faster os.walk() / BSD 3-Clause"
+scikit-bio,0.5.1,Python package for bioinformatics / BSD
+scikit-image,0.13.1,Image processing routines for SciPy. / BSD 3-Clause
+scikit-learn,0.19.1,A set of python modules for machine learning and data mining / BSD 3-Clause
+scipy,1.0.0,Scientific Library for Python / BSD 3-Clause
+scrapy,1.4.0,A high-level Python Screen Scraping framework / BSD 3-Clauses
+seaborn,0.8.1,Statistical data visualization / BSD 3-Clause
+semantic_version,2.6.0,A library implementing the 'SemVer' scheme. / BSD
+send2trash,1.4.2,Python library to natively send files to Trash (or Recycle bin) on all platforms. / BSD-3-Clause
+service_identity,17.0.0,Service identity verification for pyOpenSSL / MIT
+setuptools,38.4.0,"Download, build, install, upgrade, and uninstall Python packages / MIT"
+setuptools_scm,1.15.6,The blessed package to manage your versions by scm tags. / MIT
+sh,1.12.14,Python subprocess interface / MIT
+shapely,1.6.2,Python package for manipulation and analysis of geometric objects in the Cartesian plane. / BSD 3-Clause
+simplegeneric,0.8.1,"Simple generic functions (similar to Python's own len(), pickle.dump(), etc.) / Zope Public"
+simplejson,3.12.0,"Simple, fast, extensible JSON encoder/decoder for Python / MIT"
+singledispatch,3.4.0.3,Transforms a function into a single-dispatch generic function / MIT
+sip,4.18.1,Create Python bindings for C and C++ libraries / GPL-3.0
+six,1.11.0,Python 2 and 3 compatibility utilities / MIT
+snakeviz,0.4.2,Web-based viewer for Python profiler output / BSD
+snappy,1.1.7,A fast compressor/decompressor / BSD 3-clause
+snowballstemmer,1.2.1,Snowball stemming library collection for Python / BSD-2-Clause
+snuggs,1.4.1,Snuggs are s-expressions for NumPy. / MIT
+sockjs-tornado,1.0.3,SockJS python server implementation on top of Tornado framework / MIT
+sortedcollections,0.5.3,Python Sorted Collections / Apache-2.0
+sortedcontainers,1.5.9,"Python Sorted Container Types: SortedList, SortedDict, and SortedSet / Apache 2.0"
+spacy,2.0.5,Industrial-strength Natural Language Processing / MIT
+sphinx,1.6.6,Sphinx is a tool that makes it easy to create intelligent and beautiful documentation / BSD 2-clause
+sphinx_rtd_theme,0.2.4,ReadTheDocs.org theme for Sphinx / BSD
+sphinxcontrib,1,Python namespace for sphinxcontrib / BSD
+sphinxcontrib-websupport,1.0.1,Sphinx API for Web Apps / BSD-2-Clause
+spyder,3.2.6,Scientific PYthon Development EnviRonment / MIT
+sqlalchemy,1.2.1,Database Abstraction Library. / MIT
+sqlite,3.22.0,"Implements a self-contained, zero-configuration, SQL database engine. / Public-Domain (http://www.sqlite.org/copyright.html)"
+sqlparse,0.2.3,non-validating SQL parser module / BSD
+statsmodels,0.8.0,Statistical computations and models for use with SciPy / BSD 3-Clause
+stripe,1.75.0,Stripe python bindings / MIT
+suds-jurko,0.6,Lightweight SOAP client (Jurko's fork) / GNU Library or Lesser General Public License LGPL
+svn,1.9.7,Intuitive Subversion wrapper / Apache Software License V.2
+swig,3.0.12,C/C++ parser code generator / GPL 3
+sympy,1.1.1,Python library for symbolic mathematics / 3-clause BSD
+tabpy-server,0.2,Web server Tableau uses to run Python scripts / MIT
+tblib,1.3.2,Traceback serialization library. / BSD 2-Clause
+tempita,0.5.3,A very small text templating language / MIT
+tensorflow,1.4.1,TensorFlow is a machine learning library. / Apache 2.0
+teradata,15.10.0.21,Script powerful interactions with Teradata Database / MIT
+termcolor,1.1.0,ANSII Color formatting for output in terminal / MIT
+terminado,0.8.1,Terminals served by tornado websockets / BSD 3-clause
+testpath,0.3.1,Testpath is a collection of utilities for Python code working with files and commands. / MIT
+theano,1.0.1,Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs. / BSD 3-Clause
+tk,8.6.7,A dynamic programming language with GUI support. Bundles Tcl and Tk. / Tcl/Tk
+toolz,0.9.0,A functional standard library for Python. / BSD 3-Clause
+tornado,4.5.3,"A Python web framework and asynchronous networking library, originally developed at FriendFeed. / Apache 2.0"
+tornado-json,1.3.2,simple JSON API framework based on Tornado / MIT
+tqdm,4.19.4,"A Fast, Extensible Progress Meter / MPLv2.0, MIT"
+traitlets,4.3.2,Configuration system for Python applications / BSD 3-clause
+traits,4.6.0,Explicitly typed attributes for Python / BSD
+traitsui,5.1.0,Traits-capable windowing framework / BSD
+transaction,2.1.2,Transaction management for Python / ZPL 2.1
+translationstring,1.3,Utility library for i18n / BSD
+trollius,2.1,"port of the Tulip project (asyncio module, PEP 3156) / Apache"
+twisted,17.9.0,event-driven networking engine / MIT
+typing,3.6.2,Type Hints for Python - backport for Python<3.5 / PSF
+ujson,1.35,Ultra fast JSON encoder and decoder for Python / BSD
+unicodecsv,0.14.1,Drop-in replacement for csv module which supports unicode strings / BSD
+unidecode,0.04.21,ASCII transliterations of Unicode text / GNU General Public License v2 or later (GPL v2+)
+unixodbc,2.3.4,ODBC on non MS Windows platforms / LGPL-2.1
+urllib3,1.22,"HTTP library with thread-safe connection pooling, file post, and more. / MIT"
+vcversioner,2.16.0.0,Take version numbers from version control. / ISC
+venusian,1.1.0,A library for deferring decorator actions / BSD
+w3lib,1.18.0,Library of web-related functions / BSD
+waitress,1.1.0,Production-quality WSGI server with very acceptable performance / ZPL 2.1
+wcwidth,0.1.7,Measures number of Terminal column cells of wide-character codes. / MIT
+webencodings,0.5.1,Character encoding aliases for legacy web content / BSD 3-Clause
+webob,1.7.3,WSGI request and response object / MIT
+webtest,2.0.29,helper to test WSGI applications / MIT
+werkzeug,0.14.1,The Python WSGI Utility Library. / BSD 3-Clause
+wget,1.19.1,utility for non-interactive download of files from the Web / GPL3
+wheel,0.30.0,A built-package format for Python. / MIT
+whoosh,2.7.4,Full-text indexing and searching library / Two-clause BSD license
+widgetsnbextension,3.1.0,IPython HTML widgets for Jupyter / BSD 3-clause
+word2vec,0.9.2,Python interface to Google word2vec / Apache-2.0
+workerpool,0.9.4,Module for distributing jobs to a pool of worker threads / MIT
+wrapt,1.10.11,"Module for decorators, wrappers and monkey patching. / BSD 2-Clause"
+wtforms,2.1,A flexible forms validation and rendering library for Python / BSD
+xarray,0.10.0,N-D labeled arrays and datasets in Python. / Apache-2.0
+xerces-c,3.2.0,Xerces-C++ is a validating XML parser written in a portable subset of C++. / Apache 2.0
+xlrd,1.1.0,Library for developers to extract data from Microsoft Excel (tm) spreadsheet files / BSD 3-Clause and BSD with advertising
+xlsxwriter,1.0.2,A Python module for creating Excel XLSX files / BSD 2-Clause
+xlwings,0.11.5,Interact with Excel from Python and vice versa / 3-clause BSD
+xlwt,1.2.0,Writing data and formatting information to Excel files / BSD
+xz,5.2.3,Data compression software with high compression ratio / LGPL-2.1 and GPL-2.0
+yaml,0.1.7,A C library for parsing and emitting YAML. / MIT
+yarl,0.14.2,Yet another URL library / Apache 2.0
+yt,3.3.5,An analysis and visualization toolkit for volumetric data / BSD 3-clause
+zeromq,4.2.2,A high-performance asynchronous messaging library. / LGPL 3
+zict,0.1.3,Composable Dictionary Classes / BSD 3-Clause
+zlib,1.2.11,Massively spiffy yet delicately unobtrusive compression library / zlib
+zope.deprecation,4.3.0,Zope Deprecation Infrastructure / ZPL 2.1
+zope.interface,4.4.3,Interfaces for Python / ZPL 2.1
+zope.sqlalchemy,0.7.7,Minimal Zope/SQLAlchemy transaction integration / ZPL 2.1
