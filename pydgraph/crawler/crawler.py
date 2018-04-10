@@ -22,7 +22,7 @@ class Crawler:
     def load_results(self):
         data = None
         filepath = os.path.join('resources', 'data.txt')
-        if not os.path.exists('resources'):
+        if not os.path.exists(filepath):
             self.generate_deptree()
 
         with open (filepath, "r") as myfile:
