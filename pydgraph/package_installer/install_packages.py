@@ -14,6 +14,6 @@ df = pd.read_csv("anaconda_package_list_macos.csv")
 
 for index, row in df.iterrows():
     print("Installing - ", row['Name'])
-    conda.cli.main('conda', 'install',  '-y', row['Name'])
+    conda.cli.main('conda', 'uninstall',  '-y', row['Name'])
    
 #conda.cli.main('conda', 'install',  '-y', 'numpy')

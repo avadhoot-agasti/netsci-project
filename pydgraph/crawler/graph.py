@@ -23,8 +23,9 @@ class Graph:
         nx.draw(self.gr, pos=graphviz_layout( self.gr), node_size=200, cmap=plt.cm.Blues, label=True,
                 node_color=range(len( self.gr)),
                 prog='dot', with_labels = True, font_size=8)
-        plt.show()
         self.export()
+        print(nx.info(self.gr))
+        plt.show()
 
     def test_nx(self):
         # Creates an instance of a networkx graph.
@@ -52,7 +53,7 @@ class Graph:
             print("filepath: done")
 
     def plot_graph(self, node_list):
-        print("node lis: ", node_list)
+        # print("node lis: ", node_list)
         self.init_graph()
         for node in node_list:
             self.gr.add_nodes_from(list(node.keys()))

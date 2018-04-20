@@ -18,7 +18,7 @@ class PyDGraph:
 
 
     def generate(self):
-        print("dependency json: \n",json.dumps(self.crawler.get_dependency_list()))
+        # print("dependency json: \n",json.dumps(self.crawler.get_dependency_list()))
         nodes = self.parser.parseDependencies(self.crawler.get_dependency_list())
         self.pgrpah.plot_graph(nodes)
 
