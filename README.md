@@ -10,7 +10,7 @@ You can install pre-requisite python modules to run this application by installi
 
 ```bash
 # activate your virtualenv, if you have one.
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ### Running the project
@@ -49,17 +49,17 @@ pip install -r requirement.txt
 │   ├── G-Betweenness-Modularity.png
 │   ├── GNew-InDegree.png
 │   ├── GNew-OutDegree.png
-│   └── graph_analysis.ipynb
-└── report
+│   └── graph_analysis.ipynb        <---- python notebook for analysis
+└── report                          <---- project proposal and report folder
     ├── ACM-Reference-Format.bst
     ├── Makefile
     ├── README.md
     ├── compile.py
     ├── introduction.tex
     ├── main.bib
-    ├── main.pdf
-    ├── main.tex
-    ├── references.bib
+    ├── main.pdf                    <---- generated project report
+    ├── main.tex                    <---- project report latex file
+    ├── references.bib              <---- project report reference file
     ├── relatedwork.tex
     ├── requirements.tex
     └── technicalsolution.tex
@@ -69,6 +69,13 @@ pip install -r requirement.txt
 Pydgraph uses `pipdeptree` to generate dependency tree from current virtual environment.
 The generated dependency graph is stored in `pydgraph/resources` folder. If you delete
  this folder or contents of this folder, crawler module will regenerate the dependency tree from the python modules installed in current virtual environment. Along with the dependency tree the `parser` generates the `pydgraph.gml` which contains the actual directed graph built from the dependency tree built from previous step. Further, this `pydgraph.gml` can be used to analyze the various graph models and community structure, friendship paradox etc. Current crawler has a limitation of not able to crawl all packages available on [pypi](https://pypi.org/). Further, version can be enhanced to crawl all packages available on [pypi](https://pypi.org/) without manually installing them locally.
+
+#### Analysis
+[Analysis Notebook](./pydgraph_analysis/graph_analysis.ipynb) has the details of graph analysis.
+
+
+#### Project report
+[Project report](./report/main.pdf) contains project proposal and final report. **Final report is yet to be completed**.
 
 ### Project location
 https://github.com/avadhoot-agasti/netsci-project 
