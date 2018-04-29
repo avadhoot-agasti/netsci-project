@@ -3,7 +3,7 @@
 \subsection{Data Sources} \label{datasources}
  Our approach is to identify the dependent packages by looking
  at the dependencies using \textit{pip show} output. For example
- \begin{lstlisting}
+ \begin{verbatim}
 pip show networkx
 
 Name: networkx
@@ -24,7 +24,7 @@ License: BSD
 Location: /Libs/anaconda/lib/python3.6/site-packages
 
 Requires: decorator
- \end{lstlisting}
+ \end{verbatim}
  Looking at the above output we can clearly see that \textit{networkxx}
  depends on package \textit{decorator} and further package \textit{decorator}
  may be dependent on other package and so on. We continue to traverse
@@ -33,26 +33,62 @@ Requires: decorator
  \cite{www-python-org} which should give us a lot of data points for our
  analysis.
 
-\subsection{Automation} \label{automation}
- We can automate running this analysis on these packages using python script. After 
- collecting this information each package will form a node in the graph and each
+\subsection{Solution} \label{automation}
+ Python app builds the graph using the installed modules in the local virtual
+ environment. It runs \textit{pipdeptree}. The crawler module generates the
+ dependency file with list of all recursive dependencies. Further, the parser recursively
+ parses this dependency file and generates the directed graph as well as saves the
+ graph in gml format. 
+ 
+\begin{figure}[htbp]
+\centering
+\fbox{\includegraphics[width=\linewidth]{images/flowchart.png}}
+\caption{Flow chart}
+\label{fig:flowchart}
+\end{figure}
+
+Currently, this app relies on python modules installed in local environment only. 
+Hence, we ended up installing bunch of python modules listed on pypi.org \cite{www-pypi}
+to do this analysis. However, this work can be extended to crawl the python modules
+listed on pypi.org \cite{www-pypi}. Installing all modules locally can be consume 
+disk space, hence make sure you have enough disk space available if you plan to
+install lot of modules and run the analysis. 
+ Each package forms a node in the graph and each
  edge will represent the dependency with the next module. We should be able
  to plot this graph using \textit{networkx} module and represent the most important nodes
  which become the hubs to the network. Also, compute the degree and clustering 
- co-efficient for this graph. Further, we can also study to graph to identify if the graph 
- follows the \textit{power law} distribution or it is a \textit{scale free} network or its
- just a \textit{random} network.
+ co-efficient for this graph. When you run the app, the app prints the number of vertices 
+ and edges along with average in and out degree of the the graph.
+ \begin{verbatim}
+Type: DiGraph
+Number of nodes: 242
+Number of edges: 612
+Average in degree:   2.5289
+Average out degree:   2.5289
+\end{verbatim}
 
+\begin{figure}[htbp]
+\centering
+\fbox{\includegraphics[width=\linewidth]{images/gengraph.png}}
+\caption{Generated Output Graph}
+\label{fig:gengraph}
+\end{figure}
+ 
+ Further, we study this graph to identify if the graph 
+ follows the \textit{power law} distribution or it is a \textit{scale free} 
+ network or its just a \textit{random} network. Also, see what kind of 
+ community structure these module form.
+ 
 \subsection{Technology} \label{tech}
- We plan to perform most of our coding in Python itself. We plan to use Gephi
-  for visualizing the network.
-
+We perform most of our coding in \textit{Python} and \textit{networkx} itself. 
+We used \textit{Gephi} for visualizing the network.
 
 \subsection{Challanges} \label{techchallanges}
-During this exercise we can run into few technical challenges for example
+During this exercise we ran into few technical challenges for example
 to perform this analysis we have to install each python package locally
 which could be really resource intensive specially in terms of disk space.
 Also, while doing the analysis and loading the graph for 128k packages
-could be memory and cpu intensive. To get around this problem we may 
-have to reduce the analysis to less number of python packages and keep
-adding mode packages as we make progress.
+could be memory and cpu intensive. To get around this problem we 
+had to reduce the analysis to less number of python packages and keep
+adding mode packages as we make progress. Further enhancements can be made
+by running the crawler on pypi.org \cite{www-pypi}.

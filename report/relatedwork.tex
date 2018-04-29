@@ -12,4 +12,18 @@ The project was aimed to analyze the 30k different Java, Ruby and Javascript
 projects on Github to understand the top libraries being used. While their
 analysis was similar to what we plan to do, the approach was not network based.
 
+\item
+This paper \textit{Power Laws in Software} \cite{louridas2008power} 
+does analysis of power law distribution in a software application at class 
+level and function level. It did analysis of java, perl, c/c++ etc applications 
+and did establish a pattern that  these applications do follow power law distribution
+
 \end {itemize}
+
+\section{Further Enhancement} \label{enhancements}
+Further enhancements can be done to crawler stage where instead of relying on
+modules installed locally it can crawl on module available on pypi.org. This will 
+reduce an additional step of installing the modules locally and save the disk space
+as well as more flexible to crawl on web. Another enhancement can be made to make it
+more generic to do the analysis on any given language for example java maven 
+dependencies or perl packages or ruby version manager and packages etc
