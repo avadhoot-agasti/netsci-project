@@ -70,3 +70,53 @@ Fig ~\ref{fig:outdegree} explains that packages like "setuptools", "six" and
 \label{fig:outdegree}
 \end{figure}
 
+
+\subsection{Friendship Paradox} \label{friend}
+For original graph, only 21% nodes follow friendship paradox. However, for
+indirect-dependency-graph, the firendship paradox holds true for about 83%
+nodes.This is very useful since using indirect dependency graph, we can
+quickly identify the hubs in this network. Essentially, we can identify the
+popular packages very easily without even knowing degree distributio of
+entire network.
+
+\subsection{Communities} \label{comm}
+Fig ~\ref{fig:community} explains that the network has large number of
+communities. In this specific installation, it can be observed that:
+ \begin{itemize}
+\item There are 10 identified communities (used resolution factor of 5). The
+bigger communities can be easily explained. For example, community around
+testing packages like pytest, community around notebook packages (notebook,
+nbconvert, ipykernel), communiy around django and community arond zope.
+\item This installation has bunch of completely separate packages like 1) pip
+and pipdeptree 2)flake and 3)networkx and decorator
+\item The node size indicates betweenness centrality. It looks like pytest is
+the one which is used mostly across all communities.
+\end{itemize}
+\begin{figure}[community]
+\centering
+\fbox{\includegraphics[width=\linewidth]{images/communities.png}}
+\caption{Communities}
+\label{fig:community}
+\end{figure}
+
+
+\subsection{Change Propogation} \label{change}
+This network can also be utilized for several other purposes. For example, if
+ package A is undergoing a major release, we can identify all the dependent
+ packages to understand the impact of the change. The paths between two nodes
+  can explain the different ways changes in Package A impacts Package B.
+  Fig ~\ref{fig:impact} and Fig ~\ref{fig:impactind}  explains this.
+
+\begin{figure}[impact]
+\centering
+\fbox{\includegraphics[width=\linewidth]{images/impact.png}}
+\caption{Impact of Change}
+\label{fig:impact}
+\end{figure}
+
+\begin{figure}[impactind]
+\centering
+\fbox{\includegraphics[width=\linewidth]{images/impactind.png}}
+\caption{Impact of Change}
+\label{fig:impactind}
+\end{figure}
