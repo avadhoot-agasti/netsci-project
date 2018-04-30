@@ -29,14 +29,14 @@ After observing these graphs, we can say that
 \end{itemize}
 
 
-\begin{figure}[gdegree]
+\begin{figure}[htbp]
 \centering
 \fbox{\includegraphics[width=\linewidth]{images/GDegreeDist.png}}
 \caption{Degree distribution of original graph}
 \label{fig:gdegree}
 \end{figure}
 
-\begin{figure}[gnewdegree]
+\begin{figure}[htbp]
 \centering
 \fbox{\includegraphics[width=\linewidth]{images/GNewDegreeDist.png}}
 \caption{Degree distribution of indirect-dependency-graph}
@@ -56,14 +56,14 @@ After observing fig ~\ref{fig:indegree} we can say that nodes (packages) like
 Fig ~\ref{fig:outdegree} explains that packages like "setuptools", "six" and
  "zope.interface" are used by several other packages.
 
-\begin{figure}[indegree]
+\begin{figure}[htbp]
 \centering
 \fbox{\includegraphics[width=\linewidth]{images/indegree.png}}
 \caption{In-Degree of indirect-dependency-graph}
 \label{fig:indegree}
 \end{figure}
 
-\begin{figure}[outdegree]
+\begin{figure}[htbp]
 \centering
 \fbox{\includegraphics[width=\linewidth]{images/outdegree.png}}
 \caption{Out-Degree of indirect-dependency-graph}
@@ -94,7 +94,7 @@ and pipdeptree 2)flake and 3)networkx and decorator
 \item The node size indicates betweenness centrality. It looks like pytest is
 the one which is used mostly across all communities.
 \end{itemize}
-\begin{figure}[community]
+\begin{figure}[htbp]
 \centering
 \fbox{\includegraphics[width=\linewidth]{images/communities.png}}
 \caption{Communities}
@@ -109,14 +109,14 @@ This network can also be utilized for several other purposes. For example, if
   can explain the different ways changes in Package A impacts Package B.
   Fig ~\ref{fig:impact} and Fig ~\ref{fig:impactind}  explains this.
 
-\begin{figure}[impact]
+\begin{figure}[htbp]
 \centering
 \fbox{\includegraphics[width=\linewidth]{images/impact.png}}
 \caption{Impact of Change}
 \label{fig:impact}
 \end{figure}
 
-\begin{figure}[impactind]
+\begin{figure}[htbp]
 \centering
 \fbox{\includegraphics[width=\linewidth]{images/impactind.png}}
 \caption{Impact of Change}
